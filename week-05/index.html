@@ -9,9 +9,9 @@
 <body>
 
     <h1>
-        <img src="./imgs/chicken.jpeg" alt="Chicken Icon" title="Chicken Icon" width="50" height="50">
+
         Urban Chicken Questionnaire
-        <img src="./imgs/eggs.png" alt="Eggs Icon" title="Chicken Icon" width="50" height="50">
+
     </h1>
 
     <form class="buff_form" action="#" method="get">
@@ -24,6 +24,7 @@
             <label for="email">Email:</label>
             <input type="email" name="email" placeholder="Example@gmail.com" required>
             <br />
+            <br>
 
             <fieldset>
                 <label for="traits">Why do you want chickens? (select all that apply)</label><br />
@@ -32,6 +33,17 @@
                 <input type="checkbox" name="traits" value="fertilizer"> Fertilizer<br />
                 <input type="checkbox" name="traits" value="feathers"> Feathers<br />
             </fieldset>
+            <br>
+            <fieldset>
+     <label>Type of property:</label>
+     <select name="year">
+       <option value="Urban">Urban</option>
+       <option value="suburban">Suburban</option>
+       <option value="rural">Rural</option>
+     </select>
+   </fieldset><br />
+
+
             <fieldset>
                 <label for="chicken">What is your favorite chicken breed? (choose one)</label><br />
                 <input type="radio" name="chicken" value="leghorn"> Leghorn<br />
@@ -39,7 +51,18 @@
                 <input type="radio" name="chicken" value="polish"> Polish<br />
                 <input type="radio" name="chicken" value="plymouth"> Plymouth<br />
             </fieldset>
-
+            <br>
+            <fieldset>
+                  <label>How will you start your flock?
+                    <br />
+                    <input type="radio" name="eggs" value="Hatch Eggs" /> Hatch Eggs <br />
+                    <input type="image" src="./imgs/eggs.png" alt="Eggs Icon" title="University of Montana Campus" width="50" height="50" /> <br />
+                    <input type="radio" name="chicken" value="buy chicks" /> Buy Chicks <br />
+                    <input type="image" src="./imgs/chicken.jpg" alt="Chicken Icon" title="Missoula College Campus" width="50" height="50" /> <br />
+                    <input type="radio" name="other" value="Other" /> Other
+                      <input type="text" name="other" placeholder="Neighbors, space, etc." />
+                    </label>
+                </fieldset><br />
             <label for="story">Tell us what your urban homestead looks like:</label>
             <textarea name="story" cols="20" rows="4" style="min-width:100%">My homestead...</textarea>
 
