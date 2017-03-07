@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Week 5</title>
+</head>
+
+<body>
+
+    <h1>
+        <img src="./imgs/chicken.jpeg" alt="Chicken Icon" title="Buffalo Icon" width="75" height="75">
+        Urban Chicken Questionnaire
+        <img src="./imgs/eggs.png" alt="Eggs Icon" title="Buffalo Icon" width="75" height="75">
+    </h1>
+
+    <form class="buff_form" action="#" method="get">
+
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Full Name" autofocus required>
+            <br />
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Example@gmail.com" required>
+            <br />
+
+            <fieldset>
+                <label for="traits">Why do you want chickens? (select all that apply)</label><br />
+                <input type="checkbox" name="traits" value="eggs"> Eggs<br />
+                <input type="checkbox" name="traits" value="companionship"> Companionship<br />
+                <input type="checkbox" name="traits" value="fertilizer"> Fertilizer<br />
+                <input type="checkbox" name="traits" value="feathers"> Feathers<br />
+            </fieldset>
+            <fieldset>
+                <label for="chicken">What is your favorite chicken breed? (choose one)</label><br />
+                <input type="radio" name="chicken" value="leghorn"> Leghorn<br />
+                <input type="radio" name="chicken" value="silkie"> Silkie<br />
+                <input type="radio" name="chicken" value="polish"> Polish<br />
+                <input type="radio" name="chicken" value="uni"> Uni<br />
+            </fieldset>
+
+            <label for="story">Tell us what your urban homestead looks like:</label>
+            <textarea name="story" cols="20" rows="4" style="min-width:100%">My homestead...</textarea>
+
+            <input type="submit" name="submit" value="Submit" />
+
+        </fieldset>
+
+    </form>
+
+    <hr />
+
+
+    <div class="image">
+        <a href="http://backyardchickens.com">
+            <img src="./imgs/silkie.jpg" alt="Image of a Silkie chicken" title="Image of a buffalo in Yellowstone" width="1000" height="415">
+        </a>
+    </div>
+</body>
+
+</html>
