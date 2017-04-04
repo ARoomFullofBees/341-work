@@ -1,5 +1,5 @@
 .heading {
-  color: #3d4281;
+  color: #000000;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   margin: 35px 0px 10px;
@@ -10,7 +10,7 @@ h2 {
 }
 
 body {
-  background-color: #636156;
+  background-color: #B1D7BF;
   background-image: none
   min-height: 400px;
   min-width: 100px;
@@ -22,7 +22,7 @@ body {
 
 p {
   font-family: 'Droid Serif', serif;
-  color: #338CB5;
+  color: #000000;
   text-align: justify;
   margin: 20px 15% 0px;
   text-indent: 1em;
@@ -33,7 +33,7 @@ p.first-p {
   padding-top: 25px;
   margin-top: 25px;
   border-width: 2px;
-  border-color: #8B8A85;
+  border-color: #000000;
 }
 
 p.first-transition {
@@ -41,7 +41,7 @@ p.first-transition {
   padding-bottom: 25px;
   margin-bottom: 25px;
   border-width: 2px;
-  border-color: #8B8A85;
+  border-color: #000000;
 }
 
 p.end-p {
@@ -49,6 +49,6 @@ p.end-p {
   padding-bottom: 40px;
   margin-bottom: 25px;
   border-width: 2px;
-  border-color: #F7E268;
-  font-style: oblique;
+  border-color: #000000;
+  
 }
