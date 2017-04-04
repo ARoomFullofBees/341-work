@@ -6,11 +6,11 @@
 }
 
 h2 {
-  font-size: 60pt;
+  font-size: 30pt;
 }
 
 body {
-  background-color: #BEC5C9;
+  background-color: #636156;
   background-image: none
   min-height: 400px;
   min-width: 100px;
@@ -21,7 +21,7 @@ body {
 }
 
 p {
-  font-family: 'Droid_Serif', serif;
+  font-family: 'Droid Serif', serif;
   color: #338CB5;
   text-align: justify;
   margin: 20px 15% 0px;
