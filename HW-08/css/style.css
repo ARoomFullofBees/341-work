@@ -1,0 +1,27 @@
+
+.pageheader {
+  background-color: #96A3AB;
+  font-family: 'Oswald-bold', sans-serif;
+  border:solid;
+  padding: 10px;
+  padding-top: 20px;
+      }
+.header {
+  background-color: #F1C968;
+  font-family: 'Oswald', sans-serif;
+  padding: 10px;
+  border: solid;
+      }
+.textblock {
+  background-color: #90B4DA;
+  font-family: 'Droid Serif', serif;
+  padding: 10px;
+  line-height: 1.4em;
+      }
+.quote{
+  font-family: "Oswald-italic", sans-serif;
+      }
+.textblock a:hover {
+  color: rgb(0, 0, 0);
+  font-size:22px
+}
