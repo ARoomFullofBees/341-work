@@ -1,0 +1,110 @@
+.page_header{
+  background-color: rgba(236, 198, 63, 0.7);
+  padding-top:20px;
+  padding-bottom:20px;
+  border-bottom: 5px solid;
+  overflow:visible, scroll;
+}
+.title {
+    margin-left: float;
+    margin-right: float;
+    padding: 2px;
+
+    font-size: 5em;
+    font-family: 'Fat Chicken', serif;
+}
+
+.logo {
+    font-size: 5em;
+    float: right;
+    padding: 10px;
+    margin-right: 0.25em;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.slogan{
+  background-color:rgba(85, 170, 207,1);
+font-family: 'Fat Chicken', serif;
+font-weight: lighter;
+font-size: 1.5em;
+float: left;
+padding-top:21px;
+padding-right:50px;
+padding-left: 10px;
+border-left:5px solid;
+border-top:5px solid;
+border-bottom: 5px solid;
+border-bottom-right-radius:80px 50px;
+-moz-border-radius-bottom-right: 80px 50px;
+-webkit-border-radius-bottom-right:80px 50px;
+}
+
+.menu{
+  background-color: rgba(85, 170, 207, 0.73);
+  padding-top:5px;
+  border-bottom:1px solid;
+}
+.menu li{
+  padding-left:20px;
+  display:inline-block;
+  font-size: 1.1em;
+  font-family: 'Biko_Black';
+  margin-right:float;
+  margin-left:float;
+}
+.menu li:hover{
+  font-size: 2em;
+  font-family: 'Biko_Black', sans-serif;
+}
+
+.menu .dropdown .dropdown_content{
+  display:none;
+}
+.dropdown:hover .dropdown_content{
+ display: inline-block;
+}
+.dropdown_content{
+  position:absolute;
+  background-color:rgba(236, 198, 63, 1);
+  max-width: 180px;
+  border: 5px solid;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgb(116, 116, 116);
+}
+
+.content{
+  background-color:rgba(85, 170, 207,1);
+  padding: 100px;
+  border: 5px solid;
+  position:realtive;
+  font-family:serif;
+}
+
+.paragraph {
+  padding: 20px;
+  width:400px;
+  font-size: 1em;
+ font-family: 'DroidSerif', serif;
+ text-align: center;
+background-color: rgba(236, 198, 63, 1);
+float:left;
+border:5px solid;
+box-shadow: 0px 8px 16px 0px rgb(116, 116, 116);
+}
+.image {
+  padding:20px;
+}
+.about{
+padding:20px;
+width:600px;
+font-size: 1em;
+font-family:'DroidSerif', serif;
+text-align:center;
+background-color: rgba(236, 198, 63, 1);
+float:right;
+border:5px solid;
+box-shadow: 0px 8px 16px 0px rgb(116, 116, 116);
+}

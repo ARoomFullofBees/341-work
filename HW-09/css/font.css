@@ -1,0 +1,19 @@
+@font-face {
+  font-family:'Fat Chicken';
+  src:url('../fonts/Fat Chicken.ttf');
+  font-weight:normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'Biko_Black';
+  src:url('../fonts/Biko_Black.otf');
+  font-weight:normal;
+  font-style: normal;
+}
+@@font-face {
+  font-family:'DroidSerif';
+  src:url('../fonts/DroidSerif.ttf');
+  font-weight:normal;
+  font-style:normal;
+}
