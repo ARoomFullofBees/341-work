@@ -83,14 +83,14 @@ box-shadow: 0px 8px 16px 0px rgb(137, 198, 113);
   padding:20px;
 }
 .about{
-padding:20px;
+padding:30px;
 width:500px;
-font-size: 1em;
+font-size: 2em;
 font-family:'DroidSerif', serif;
 text-align:center;
 background-color: rgb(234, 237, 250);
-float:right;
-border:5px solid;
+float:left;
+border:10px solid;
 box-shadow: 0px 8px 16px 0px rgb (137, 198, 113);
 }
 
