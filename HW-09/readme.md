@@ -30,3 +30,7 @@
 19. Pushed to github.
 20. Made alterations/fixed errors.
 21. Pushed to github.
+22. Re-did design.
+23. Pushed to github.
+24. Fixed Mistakes and changed fonts.
+25. Pushed to github.
