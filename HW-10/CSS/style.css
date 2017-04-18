@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+
+#container {
+            display: flex;
+            flex-wrap: wrap;
+          font-family: 'Droid Sans', sans-serif;}
+
+.orange-box {
+             background-color: #EE7500;
+             width: 100%;
+             text-align: center;
+             padding: 5px;}
+
+.grey-box {
+             background-color: #636363;
+             width: 100%;
+             text-align: center;
+             padding: 5px;}
+
+.brown-box {
+                background-color: #D69764;
+                width: 100%;
+                max-height: 350px;
+                text-align: center;
+                padding: 5px;
+                overflow: hidden;}
+
+@media screen and (min-width: 1015px) {
+                                       .orange-box {
+                                                    width: 49%;}
+                                       .grey-box {
+                                                    width: 49%;}
+                                       .brown-box {
+                                                       width: 100%;}
+                                                                    }
+
+img {
+     width: 600px;
+     height: 400px;
+     max-width: 100%;}
+
+a {
+   color: #F1FEDEA;}
