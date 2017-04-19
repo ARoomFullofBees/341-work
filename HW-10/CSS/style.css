@@ -20,24 +20,21 @@
 .brown-box {
                 background-color: #D69764;
                 width: 100%;
-                
+
                 text-align: center;
                 padding: 5px;
                 overflow: hidden;}
 
 @media screen and (min-width: 1015px) {
                                        .orange-box {
-                                                    width: 50%;}
+                                                    width: 49%;}
                                        .grey-box {
-                                                    width: 50%;}
+                                                    width: 49%;}
                                        .brown-box {
                                                        width: 100%;}
                                                                     }
 
-img {
-     width: 600px;
-     height: 400px;
-     max-width: 100%;}
+
 
 a {
    color: #F1FEDEA;}
