@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Philosopher';
+  src:url(../font/Philosopher-Bold.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Philosopher';
+  src:url(../font/Philosopher-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
