@@ -6,6 +6,29 @@ body {
     color: #777;
     font: 400 15px/1.8 "Philosopher", sans-serif;
 }
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: #55cc6b;
+}
+
+/* mouse over link */
+a:hover {
+    color: #dd9dca;
+}
+
+/* selected link */
+a:active {
+    color: #dd9dca;
+}
+
+p {
+  font-family: 'Philosopher', sans-serif;
+
+}
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
