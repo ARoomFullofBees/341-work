@@ -1,34 +1,9 @@
-
-
-
 body {
     margin: 0;
-    color: #777;
+    color: #387a35;
     font: 400 15px/1.8 "Philosopher", sans-serif;
-}
-a:link {
-    color: white;
-}
 
-/* visited link */
-a:visited {
-    color: #55cc6b;
-}
 
-/* mouse over link */
-a:hover {
-    color: #dd9dca;
-}
-
-/* selected link */
-a:active {
-    color: #dd9dca;
-}
-
-p {
-  font-family: 'Philosopher', sans-serif;
-
-}
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
@@ -57,7 +32,7 @@ p {
 .hero {
     padding: 50px 80px;
     color: #00b33c;
-    background-color: white;
+    background-color: #387a35;
     text-align: center;
     text-align: justify;
 }
@@ -67,7 +42,7 @@ p {
     top: 50%;
     left: 0;
     width: 100%;
-    color: #000;
+    color: #387a35;
     text-align: center;
 }
 
@@ -77,31 +52,8 @@ p {
 
 .description {
     padding: 50px 80px;
-    color: #00b33c;
-    background-color: #00b33c;
+    color: #387a35;
+    background-color: #387a35;
     text-align: center;
     text-align: justify;
-}
-
-.caption span.border {
-    padding: 18px;
-    color: #f7f7f7;
-    background-color: #00b33c;
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-
-h3 {
-    color: #111;
-    text-transform: uppercase;
-    font: 20px "Philosopher", sans-serif;
-    letter-spacing: 5px;
-}
-
-
-
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-    }
 }
